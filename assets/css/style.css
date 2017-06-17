@@ -1,0 +1,209 @@
+body {
+	margin: auto;
+	width: 960px;
+	background-image: url("../images/brushed.png");
+	position: relative;
+}
+
+p {
+	font-size: 15px;
+	font-family: sans-serif;
+	color: #777;
+	text-align: justify;
+	line-height: 1.5em;
+	padding-top: 3px;
+	padding-left: 1.5%;
+	padding-right: 1.5%;
+	position: relative;
+}
+
+h1 {
+	font-size: 25px;
+	font-family: "Helvetica Neue";
+	font-weight: bold;
+	color: #5B9BD5;
+	text-align: left;
+	margin-top: 10px;
+	margin-left: 5px;
+	padding: 5px;
+}
+
+h2 {
+	font-size: 18px;
+	font-family: "Helvetica";
+	font-weight: bold;
+	color: #777;
+	padding: 13px;
+}
+
+h3 {
+	font-size: 20px;
+	font-family: "Helvetica Neue";
+	font-weight: bold;
+	color: #5B9BD5;
+	padding: 5px;
+}
+
+h4 {
+	font-size: 10px;
+	font-family: "Helvetica Neue";
+	font-weight: bold;
+	color: white;
+	padding: 35px;
+}
+
+form label {
+	font-size: 15px;
+	font-family: sans-serif;
+	color: #777;
+	text-align: justify;
+	line-height: 1.5em;
+	padding-top: 3px;
+	padding-left: 1.5%;
+	padding-right: 1.5%;
+	position: relative;
+}
+
+header {
+	margin-top: 8px;
+	width: 100%;
+	height: 100px;
+	border-width: 1.5%;
+	background-color: #ffffff;
+	border-color: #cccccc;
+	text-align: center;
+	position: relative;
+}
+
+nav {
+	margin-top: 38px;
+	width: 35%;
+	margin-right: 7%;
+    float: right;
+    position: relative;
+}
+
+nav ul li {
+    list-style-type: none;
+    width: 30%;
+    float: left; 
+}
+
+li a {
+     text-decoration: none;
+     font-family: sans-serif;
+     font-size: 18px;
+     color: #5B9BD5;
+}
+
+li a:hover {
+	font-style: arial;
+    color: black;
+}
+
+section{
+	margin-top: 18px;
+	margin-left: 8%;
+	width: 52%;
+	background-color: #FFF;
+	text-align: center;
+	float: left;
+	position: relative;
+}
+aside {
+	margin-top: 18px;
+	margin-right: 8%;
+	width: 28%;
+	background-color: #FFF;
+	text-align: center;
+	float: right;
+}
+
+footer {
+	margin: auto;
+	margin-top: 10px;
+	width: 100%;
+	height: 75px;
+	background-color: #666666; 
+	text-align: center;
+	position: relative; 
+	left: 0px; 
+}
+
+
+form {
+	width: 100%;
+}
+
+
+form input {
+    width: 50%;
+    padding: 3px 7px;
+    margin: 2px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+ }
+
+
+#logo-header {
+	margin-left: 4.7%;
+	background-image: url("../images/logo-david.png");
+	background-size: 86% 108px;
+	width: 24%;
+	height: 100px;
+	position: absolute;
+	top:0px;
+}
+
+#icons {
+	position: relative;
+	float: right;
+	margin-right: 12%;
+}
+
+#icons ul li{
+    list-style-type: none;
+    float: left;
+ }
+
+#icons li a {
+     text-decoration: none;
+     }
+
+#cleared{
+	clear: both;
+}
+@media screen and (max-width:960px){
+     body{width:100%;}
+}
+
+
+@media screen and (max-width:900px){
+   
+	nav ul li {
+    clear: both;
+    float: left;
+
+	}
+
+     section {
+     	width:100%;
+     	clear: both;
+     	margin: auto;
+     }
+
+     aside {
+     	width: 100%;
+     	float: left;
+     	margin: auto;
+     }
+
+     footer {
+     	height:60px;
+     }
+    
+    #logo-header{
+    	width: 50%;
+    }   
+
+  }
